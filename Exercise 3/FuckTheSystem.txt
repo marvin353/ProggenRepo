@@ -1,0 +1,84 @@
+add-person lecturer;Marvin;Woller
+add-person student;Lisa;Wirth
+add-person lecturer;Dennis;Osipov
+add-person student;Lennard;Sommer
+add-person student;Jessi;Ochs
+add-person student;Cedric;Morrison
+add-person student;Alex;K
+add-person student;Yannick;Funk
+add-person student;Anid;Mai
+
+add-certificate 2;tested;10
+add-certificate 0;recovered;5 
+add-certificate 1;tested;42
+add-certificate 3;vaccinated;15 
+add-certificate 3;tested;10
+add-certificate 0;recovered;5 
+add-certificate 4;tested;42
+add-certificate 2;vaccinated;15 
+add-certificate 5;tested;10
+add-certificate 0;recovered;5 
+add-certificate 6;tested;42
+add-certificate 2;vaccinated;15 
+add-certificate 8;tested;42
+add-certificate 2;vaccinated;364 
+add-certificate 10;tested;0
+add-certificate 0;recovered;5 
+add-certificate 6;tested;42
+add-certificate 2;vaccinated;15 
+
+print-person 0 
+print-person 1 
+print-person 2
+print-person 3
+print-person 4 
+print-person 5 
+print-person 6
+print-person 7
+print-person 8 
+
+print-people student
+print-people lecturer
+print-people security
+
+add-event 0;Audimax;4;3G;42
+add-event 0;Audimax;4;3G;42
+add-event 0;Audimax;4;2G;80
+add-event 0;Audimax;4;2G;90
+add-person security;Bill;Baumeister
+add-certificate 9;vaccinated;0
+increase-security 0;9
+increase-security 1;9
+increase-security 1;9
+increase-security 1;9
+increase-security 2;9
+increase-security 3;9
+increase-security 3;9
+add-person security;Bill;Baumeister2
+add-certificate 9;vaccinated;0
+increase-security 1;10
+
+book-spot 0;1
+book-spot 0;3
+book-spot 0;4
+book-spot 0;5
+book-spot 0;6
+book-spot 0;7
+book-spot 0;8
+
+book-spot 1;1
+book-spot 1;3
+book-spot 1;4
+book-spot 1;5
+
+book-spot 3;4
+book-spot 3;5
+book-spot 3;6
+book-spot 3;7
+
+report-case 5
+report-case 8
+
+quit
+
+
