@@ -1,0 +1,34 @@
+set-date 42 
+
+add-person student;Max;Mustermann
+add-person student;Maximiliane;Musterfau
+add-person lecturer;Hans;Jürgen
+add-person student;Anna;Bauer
+add-person student;John;Doe
+
+add-certificate 2;tested;10
+add-certificate 0;recovered;5 
+add-certificate 1;tested;42
+add-certificate 2;vaccinated;15  
+print-person 0 
+print-person 2 
+print-person 1
+print-person 4
+
+print-people student
+print-people lecturer
+print-people security
+
+add-event 2;Audimax;4;3G;42
+add-person security;Bill;Baumeister
+add-certificate 5;vaccinated;0
+increase-security 0;5
+
+book-spot 0;0
+book-spot 0;1
+book-spot 0;3
+book-spot 0;4
+
+report-case 0
+
+quit
